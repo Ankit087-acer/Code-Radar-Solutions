@@ -27,7 +27,7 @@ int main(){
      break;
      case 12:printf("%d",31);
      break;
-     default:printf("Invalid month")
+     default:printf("Invalid month");
        
     }
     return 0;
