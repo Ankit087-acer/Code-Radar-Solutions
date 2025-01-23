@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int month;
-    scanf("%d",&n);
+    scanf("%d",&month);
     switch(month){
     case 1:printf("%d",31);
         break;
@@ -27,7 +27,7 @@ int main(){
         break;
     case 12:printf("%d",31);
           break;
-     default:printf("Invalid month");
+    default:printf("Invalid month");
        
     }
     return 0;
