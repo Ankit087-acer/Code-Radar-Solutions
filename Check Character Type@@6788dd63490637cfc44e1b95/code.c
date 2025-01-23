@@ -6,7 +6,7 @@ int main() {
         printf("Digit");
     }
     else if(1){
-        if(c=='a'||c=='u'||c=='e'||c=='i'||c=='o'){
+        if(c=='a'||c=='A'||c=='u'||c=='U'||c=='e'||c=='E'||c=='i'||c=='I'||c=='o'||c=='O'){
             printf("Vowel");
         }
         else{
@@ -14,7 +14,7 @@ int main() {
         }
     }
     else{
-        printf("Special Character");
+        printf("Special Character")
     }
     return 0;
 }
