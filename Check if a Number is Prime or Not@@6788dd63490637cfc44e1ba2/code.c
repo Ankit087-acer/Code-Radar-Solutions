@@ -10,11 +10,11 @@ int main() {
         printf("Not Prime");
     }
     else{
-        for(int i=1;i<=1;i++){
+        for(int i=1;i<=n;i++){
             if(n%i==0){
                 y++;
             }
-        if(y>=2){
+        if(y>2){
                 printf("Not Prime");
             }
         else{
