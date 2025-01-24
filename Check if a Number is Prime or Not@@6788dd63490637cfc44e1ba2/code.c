@@ -14,7 +14,7 @@ int main() {
             if(n%i==0){
                 y++;
             }
-        if(n>=2){
+        if(y>2){
                 printf("Not Prime");
             }
         else{
