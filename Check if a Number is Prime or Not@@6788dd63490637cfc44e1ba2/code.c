@@ -15,10 +15,10 @@ int main() {
                 y++;
             }
           if(n>2){
-                printf("Prime");
+                printf("Not Prime");
             }
             else{
-                printf("Not Prime");
+                printf("Prime");
             }
         }
     }
