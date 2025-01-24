@@ -13,14 +13,14 @@ int main() {
         for(int i=1;i<=n;i++){
             if(n%i==0){
                 y++;
-            }
+            }}
         if(y>2){
                 printf("Not Prime");
             }
         else{
                 printf("Prime");
             }
-        }
+        
     }
 
     return 0;
