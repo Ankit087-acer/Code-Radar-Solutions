@@ -5,6 +5,6 @@ int main() {
     for(i=31;i>=0;i--){
     int bit=(n>>i)&1;
     printf("%d",bit);}
-    printf("\n")
+    printf("\n");
     return 0;
 }
