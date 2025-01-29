@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main() {
-    int n;
+    int n,i;
     scanf("%d",&n);
-    int bit=(n>>31)&1;
-    printf("%d",bit);
+    for(i=31;i>=0;i--){
+    int bit=(n>>i)&1;
+    printf("%d",bit);}
+    printf("\n")
     return 0;
 }
