@@ -3,7 +3,7 @@ int main() {
     int y;
     scanf("%d",&y);
     int count=0;
-    for(int i=31;i>=0;i++){
+    for(int i=31;i>=0;i--){
         if(n>>i&1){
             break;
         }
