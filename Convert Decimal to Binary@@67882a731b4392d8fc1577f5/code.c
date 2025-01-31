@@ -6,8 +6,8 @@ int main(){
         b[x]=d%2;
         d/=2;
     }
-    for(x-=1;x>=0;x--){
-        printf("%d",b[x]);
+    for(int y=x-1;x>=0;x--){
+        printf("%d",b[y]);
     }
     return 0;
 }
