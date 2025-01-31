@@ -4,9 +4,9 @@ int countleadingzeroes( int n){
     for(int i=31;i>=0;i--){
         if(n>>(i&1)){
             break;
-            
+            count++;
         }
-        count++;}
+        }
     return count;
     }
 int main(){
