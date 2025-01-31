@@ -1,8 +1,11 @@
 #include <stdio.h>
 int countleadingzeroes( unsigned int n){
     int count=0;
+    if(num==0){
+        return 32;
+    }
     for(int i=31;i>=0;i--){
-        if((n>>i)&1){
+        if(n&(1<<i)!=0){
             break;
             count++;
         }
