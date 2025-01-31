@@ -1,5 +1,5 @@
 #include <stdio.h>
-void decimal(int n);
+int decimal(int n);
 int main() {
     int n;
     scanf("%d",&n);
@@ -7,7 +7,7 @@ int main() {
     printf("%d",y);
     return 0;
 }
-void decimal(int n){
+int decimal(int n){
 if(n==0){
     printf("0");
     return 0;
