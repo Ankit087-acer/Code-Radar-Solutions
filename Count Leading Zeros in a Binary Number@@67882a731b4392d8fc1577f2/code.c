@@ -11,7 +11,7 @@ int countleadingzeroes( unsigned int n){
     }
 int main(){
     unsigned int n;
-    scanf("%d",&n);
+    scanf("%u",&n);
     int y=countleadingzeroes(n);
     printf("%d",y);
     return 0;
