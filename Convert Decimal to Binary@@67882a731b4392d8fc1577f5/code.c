@@ -1,16 +1,11 @@
 #include <stdio.h>
-int decimal(int n);
-int main() {
-    int n;
-    scanf("%d",&n);
-    int y=decimal(n);
-    printf("%d",y);
+int main(){
+    int d,b[32],x;
+    scanf("%d",d);
+    for(x=0;d>0;x++){
+        b[x]=d%2;
+        d/=2;
+    }
+    printf("%d",b[x]);
     return 0;
-}
-int decimal(int n){
-
-while (n>0){
-    printf("%d",n%2);
-    n/=2;
-}
 }
