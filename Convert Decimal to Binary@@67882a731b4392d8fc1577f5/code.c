@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int d,b[31],x;
+    int d,b[32],x;
     scanf("%d",&d);
     for(x=0;d>0;x++){
         b[x]=d%2;
@@ -9,5 +9,6 @@ int main(){
     for(int y=x-1;y>=0;y--){
         printf("%d",b[y]);
     }
+    printf("\n");
     return 0;
 }
