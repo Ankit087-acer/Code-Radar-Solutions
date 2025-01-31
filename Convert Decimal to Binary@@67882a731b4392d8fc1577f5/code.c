@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int d,b[32],x;
+    int d,b[31],x;
     scanf("%d",&d);
     for(x=0;d>0;x++){
         b[x]=d%2;
