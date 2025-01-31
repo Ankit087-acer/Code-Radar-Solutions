@@ -1,10 +1,19 @@
 #include <stdio.h>
+void decimal(int n);
 int main() {
-    int n,i;
+    int n;
     scanf("%d",&n);
-    for(i=31;i>=0;i--){
-    int bit=n>>(i&1);
-    printf("%d",bit);}
-    printf("\n");
+    int y=decimal(n);
+    printf("%d",y);
     return 0;
+}
+void decimal(int n){
+if(num==0){
+    printf("0");
+    return 0;
+}
+while (num>0){
+    printf("%d",n%2);
+    n/=2;
+}
 }
