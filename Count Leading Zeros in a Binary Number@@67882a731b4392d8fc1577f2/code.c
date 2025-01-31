@@ -1,4 +1,5 @@
 #include <stdio.h>
+int countleadingzeroes(unsigned int n);
 int countleadingzeroes(unsigned int n){
     int count=0;
     while(n>0){
