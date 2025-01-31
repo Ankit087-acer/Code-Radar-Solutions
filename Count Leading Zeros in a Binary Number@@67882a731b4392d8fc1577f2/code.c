@@ -1,5 +1,5 @@
 #include <stdio.h>
-int countleadingzeroes( int n){
+int countleadingzeroes( unsigned int n){
     int count=0;
     for(int i=31;i>=0;i--){
         if((n>>i)&1){
@@ -10,7 +10,7 @@ int countleadingzeroes( int n){
     return count;
     }
 int main(){
-    int n;
+    unsigned int n;
     scanf("%d",&n);
     int y=countleadingzeroes(n);
     printf("%d",y);
