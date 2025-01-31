@@ -1,14 +1,14 @@
 #include <stdio.h>
-void lead(int n);
+void lead(unsigned int n);
 int main() {
-   int n;
+   unsigned int n;
    scanf("%d",&n);
    lead(n);
    
 }
 void lead(int n){
     for(int i=31;i>=0;i--){
-        if(n>>i&1){
+        if(n>>(i&1)){
             break;
         }
         count++;
