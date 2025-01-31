@@ -2,15 +2,14 @@
 int countleadingzeroes(unsigned int n);
 int countleadingzeroes(unsigned int n){
     int count=0;
-    while(n>0){
-        if(n&(1<<31)){
+    for(int i=31;i>=0;i--){
+        if(n>>i&1){
             break;
-            count++;
-            n<<=1;
-        
+        }
+        count++;
     }
     return count;
-}}
+    }
 int main(){
     int unsigned int n;
     scanf("%u",&n);
