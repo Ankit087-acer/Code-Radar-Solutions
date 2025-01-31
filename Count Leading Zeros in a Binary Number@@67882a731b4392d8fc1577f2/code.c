@@ -4,7 +4,7 @@ int main() {
    int n;
    scanf("%d",&n);
    lead(n);
-   return 0;
+   
 }
 void lead(int n){
     for(int i=31;i>=0;i--){
