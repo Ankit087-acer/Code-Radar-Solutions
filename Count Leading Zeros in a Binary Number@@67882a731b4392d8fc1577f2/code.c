@@ -2,11 +2,11 @@
 int countleadingzeroes(unsigned int n){
     int count=0;
     while(num>0){
-        if(num&(1<<31)){
+        if(num&(1<<31))
             break;
             count++;
             num<<=1;
-        }
+        
     }
     return count;
 }
