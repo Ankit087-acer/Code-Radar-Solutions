@@ -8,11 +8,11 @@ int main() {
     return 0;
 }
 void decimal(int n){
-if(num==0){
+if(n==0){
     printf("0");
     return 0;
 }
-while (num>0){
+while (n>0){
     printf("%d",n%2);
     n/=2;
 }
