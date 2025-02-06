@@ -5,7 +5,7 @@ int main() {
     fgets(str,sizeof(str),stdin);
     int count=0,i=0;
     while(str[i]!='\0'){
-        if(str[i]==' '&&str[i+1]=='\n'){
+        if(str[i]==' '||str[i+1]=='\n'){
             count++;
         }
         i++;
