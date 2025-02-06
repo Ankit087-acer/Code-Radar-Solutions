@@ -7,10 +7,10 @@ int main() {
    int end=strlen(str)-1;
    
     if(str[start]!=str[end]){
-        printf("Yes");}
+        printf("No");}
   
     else{
-        printf("No");
+        printf("Yes");
     }
    
     return 0;
