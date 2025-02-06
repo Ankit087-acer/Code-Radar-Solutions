@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int arr[], size, evencount,oddcount;
+    int size, evencount,oddcount;
     scanf("%d",&size);
     evencount=0;
     oddcount=0;
