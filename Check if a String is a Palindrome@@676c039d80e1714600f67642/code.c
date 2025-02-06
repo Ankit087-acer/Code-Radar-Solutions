@@ -5,15 +5,13 @@ int main() {
    scanf("%s",str);
    int start=0;
    int end=strlen(str)-1;
-   while(start<end){
+   
     if(str[start]!=str[end]){
-        printf("Yes");
-    }
-    start++;
-    end--;
+        printf("Yes");}
+  
     else{
         printf("No");
     }
-   }
+   
     return 0;
 }
