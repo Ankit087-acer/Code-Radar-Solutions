@@ -2,7 +2,7 @@
 #include <string.h>
 int main() {
     char str1[100],str2[100];
-    scanf("%s",str1);
+    fgets(str1,sizeof(str1),stdin);
     scanf("%s",str2);
     int i=0,j=0;
     while(str1[i]!='\0'){
