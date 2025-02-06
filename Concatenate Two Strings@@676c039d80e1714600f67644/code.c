@@ -6,12 +6,12 @@ int main() {
    fgets(str2,sizeof(str2),stdin);
     int i=0,j=0;
     while(str1[i]!='\0'){
-        i++;
+        ++i;
     }
     while(str2[j]!='\0'){
         str1[i]=str2[j];
-        j++;
-        i++;
+        ++j;
+        ++i;
 }
 str1[i]='\0';
 printf("%s",str1);
