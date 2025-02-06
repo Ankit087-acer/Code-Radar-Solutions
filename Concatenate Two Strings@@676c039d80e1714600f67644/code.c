@@ -10,8 +10,8 @@ int main() {
     }
     while(str2[j]!='\0'){
         str1[i]=str2[j];
-        i++;
         j++;
+        i++;
 }
 str1[i]='\0';
 printf("%s",str1);
