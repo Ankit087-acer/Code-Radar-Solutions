@@ -16,6 +16,6 @@ int main() {
         j++;
 }
 result[i]='\0';
-printf("%s",str1);
+printf("%s",result);
     return 0;
 }
