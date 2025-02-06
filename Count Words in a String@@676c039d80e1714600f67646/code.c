@@ -3,12 +3,9 @@
 int main() {
     char str[100];
     fgets(str,sizeof(str),stdin);
-    int count=0,i=0;
-    while(str[i]==''){
-        i++;
-    }
+    int count=0,i=1;
     while(str[i]!='\0'){
-        if(str[i]==''&&str[i+1]!=''&&str[i+1]!='\0'){
+        if(str[i]==' '||str[i]=='\n'||str[i]!='\t'){
             count++;
         }
         i++;
