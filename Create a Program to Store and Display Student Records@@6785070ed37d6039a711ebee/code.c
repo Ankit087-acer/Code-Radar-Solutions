@@ -3,7 +3,7 @@ struct student{
     int r;
     char name[100];
     float m;
-}
+};
 int main() {
     int n;
     scanf("%d",&n);
