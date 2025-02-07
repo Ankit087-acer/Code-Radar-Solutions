@@ -1,18 +1,17 @@
 #include <stdio.h>
-int isPrime(int i);
+int isPrime(int i,n);
 int main() {
     int n;
     scanf("%d",&n);
  while(n--){
     int i;
     scanf("%d",&i);
-    printf("%d\n",isPrime(i));
+    printf("%d\n",isPrime(i,n));
  }
     return 0;
 }
-int isPrime(int i){
-   int n;
-   scanf("%d",&n);
+int isPrime(int i,n){
+   
    int y=0;
     if(n<=1){
         printf("Not Prime");
