@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-    char str[69];
+    char str[100];
     char toRep;
     fgets(str,sizeof(str), stdin);
     scanf("%c",&toRep);
