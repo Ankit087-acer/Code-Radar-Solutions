@@ -5,7 +5,7 @@ int isPrime(int t,num);
 int isPrime(int t,num){
    int y=0;
     if(num<=1){
-        printf("Not Prime");
+        printf("0");
     }
     else{
         for(int i=1;i<=n;i++){
