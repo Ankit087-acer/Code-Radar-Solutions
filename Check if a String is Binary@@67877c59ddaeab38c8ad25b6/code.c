@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<stdbool.h>
 int main(){
     char s[100];
     scanf("%s",s);
