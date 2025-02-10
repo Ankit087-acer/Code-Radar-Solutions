@@ -1,11 +1,12 @@
 #include <stdio.h>
-void boolchecker(char s[]){
+#include <stdbool.h>
+bool boolchecker(char s[]){
 for(int i=0;s[i]!='\0';i++){
         if(s[i]!='0' && s[i]!='1'){
-            return 0;
+            return false;
         }
         else{
-            return 1;
+            return true;
         }
     }
     
