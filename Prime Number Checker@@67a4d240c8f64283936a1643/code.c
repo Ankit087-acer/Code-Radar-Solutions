@@ -1,23 +1,19 @@
 #include <stdio.h>
-int isPrime(int t,num);
-
-
-int isPrime(int t,num){
-   int y=0;
+int isPrime(int num){
+   
     if(num<=1){
-        printf("0");
+       return 0;
     }
     else{
-        for(int i=1;i<=n;i++){
+        
+        for(int i=2;i*i<=num;i++){
             if(num%i==0){
-                y++;
+                return 0;
+            }
+            else{
+             return 1; 
             }}
-        if(y>2){
-             printf('0');
-            }
-        else{
-             printf('1'); 
-            }
+       
         
     }
 }
