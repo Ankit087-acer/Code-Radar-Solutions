@@ -5,7 +5,7 @@ int isPrime(int num){
       return 0;
     }
     else{
-        for(int i=2;i<=num;i++){
+        for(int i=1;i<=num;i++){
             if(num%i==0){
                 y++;
             }}
