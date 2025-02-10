@@ -2,7 +2,7 @@
 #include <ctype.h>
 int main(){
     char ch[100];
-    scanf("%s",&ch);
+    fgets(ch,sizeof(ch),stdin);
     for(int i=0;ch[i]!='\0';i++){
         ch[i]=toupper(ch[i]);
     }
