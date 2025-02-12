@@ -12,7 +12,7 @@ int main(){
         scanf("%d %s %f",&s1[i].j,&s1[i].name,&s1[i].marks);
         float avg=s1[i].marks/3.0;
 }
-printf("%.2f",avg);
+printf("Average Marks: %.2f",avg);
 return 0;
     
 }
