@@ -11,7 +11,7 @@ int main(){
     struct Student s1[n];
     for(int i=0;i<n;i++){
         scanf("%d %s %f",&s1[i].j,&s1[i].name,&s1[i].marks);
-        if(s1[i].marks<=50){
+        if(s1[i].marks<=50.0){
             allpassed=0;
         }
     }
