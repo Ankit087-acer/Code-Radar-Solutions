@@ -13,7 +13,7 @@ int main(){
         scanf("%d %s %f",&s1[i].j,&s1[i].name,&s1[i].marks);
         sum+=s1[i].marks;
 }
-printf("Average Marks: %.2f",sum/3.0);
+printf("Average Marks: %.2f",sum/n);
 return 0;
     
 }
