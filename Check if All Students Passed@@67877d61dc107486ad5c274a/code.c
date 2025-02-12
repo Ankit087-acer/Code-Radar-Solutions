@@ -13,7 +13,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(s1[i].marks>50){
-            printf("All Passed");
+            printf("All Passed\n");
         }
         else{
             printf("Not All Passed");
