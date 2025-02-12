@@ -6,7 +6,7 @@ int main(){
     int n;
     scanf("%d",&n);
     struct student(s1[n]);
-    for(int i=0;i<=n;i++){
-        
+    for(int i=0;i<n;i++){
+        printf("%j %c %f",j,name,marks)
     }
 }
