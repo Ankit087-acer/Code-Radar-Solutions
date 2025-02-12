@@ -7,6 +7,6 @@ int main(){
     scanf("%d",&n);
     struct student(s1[n]);
     for(int i=0;i<n;i++){
-        printf("%j %c %f",j,name,marks)
+        scanf("%j %c %f",&s1,name,marks)
     }
 }
