@@ -8,11 +8,12 @@ int main(){
     int n;
     scanf("%d",&n);
     struct student s1[n];
+    float sum=0;
     for(int i=0;i<n;i++){
         scanf("%d %s %f",&s1[i].j,&s1[i].name,&s1[i].marks);
-        float avg=s1[i].marks/3.0;
+        sum+=s1[i].marks;
 }
-printf("Average Marks: %.2f",avg);
+printf("Average Marks: %.2f",sum/3.0);
 return 0;
     
 }
