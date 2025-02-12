@@ -12,7 +12,7 @@ int main(){
         scanf("%d %s %.1f",&s1[i].j,&s1[i].name,&s1[i].marks);
     }
     for(int i=0;i<n;i++){
-        if(s1[i].marks>50){
+        if(s1[i].marks>50.0){
             printf("All Passed");
         }
         else{
