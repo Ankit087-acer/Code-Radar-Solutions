@@ -6,7 +6,7 @@ struct rectangle{
 int main(){
     int n;
     scanf("%d",&n);
-    struct s1[n];
+    struct rectangle  s1[n];
     for(int i=0;i<n;i++){
         scanf("%d %d",&s1[i].l,&s1[i].b);
     
