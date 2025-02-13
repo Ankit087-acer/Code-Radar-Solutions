@@ -6,7 +6,7 @@ int main(){
     fgets(str,sizeof(str),stdin);
     int i,j=0;
     for(i=0;str[i]!='\0';i++){
-        if(str=='a'||str=='A'||str=='u'||str='U'||str='i'||str='I'||str=='o'||str=='O'||str='e'||str='E'||str=!isalpha(str)){
+        if(str[i]=='a'||str[i]=='A'||str[i]=='u'||str[i]='U'||str[i]='i'||str[i]='I'||str[i]=='o'||str[i]=='O'||str[i]='e'||str[i]='E'||str[i]=!isalpha(str)){
           str[j++]=str[i];
         }
 }
