@@ -2,7 +2,7 @@
 struct MovieTicket{
     char name[100];
     char type[100];
-    int price;
+    float price;
 };
 int main(){
     int n;
@@ -10,7 +10,7 @@ int main(){
     struct MovieTicket s1[n];
     float standard_total=0,Premium_total=0,VIP_total=0;
     for(int i=0;i<n;i++){
-          scanf("%s %s %d",&s1[i].name,&s1[i].type,&s1[i].price);
+          scanf("%s %s %f",&s1[i].name,&s1[i].type,&s1[i].price);
     }
     for(int i=0;i<n;i++){
        if(s1[i].type="Standard"){
@@ -19,7 +19,7 @@ int main(){
        else if(s1[i].type="Premium"){
         Premium_total+=s1[i].price;
        }
-       else{
+       else if{
         VIP_total+=s1[i].price;
        }
 }
