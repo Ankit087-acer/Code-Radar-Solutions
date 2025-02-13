@@ -17,7 +17,7 @@ int main(){
             bonus+=s1[i].salary/10;
             printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",s1[i].id,s1[i].name,bonus);
         }
-        else if{
+        else {
              bonus+=s1[i].salary/20;
              printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",s1[i].id,s1[i].name,bonus);
              
