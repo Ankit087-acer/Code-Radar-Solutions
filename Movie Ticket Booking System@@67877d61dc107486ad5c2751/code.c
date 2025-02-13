@@ -20,7 +20,7 @@ int main(){
        else if(strcmp(s1[i].type,"Premium")){
         Premium_total+=s1[i].price;
        }
-       else if(strcmp(s1[i].type,"Premium")){
+       else if(strcmp(s1[i].type,"VIP")){
         VIP_total+=s1[i].price;
        }
 }
