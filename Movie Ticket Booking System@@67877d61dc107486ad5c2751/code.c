@@ -13,10 +13,10 @@ int main(){
           scanf("%s %s %f",&s1[i].name,&s1[i].type,&s1[i].price);
     }
     for(int i=0;i<n;i++){
-       if(s1[i].type=='Standard'){
+       if(s1[i].type='Standard'){
         sum+=s1[i].price;
        }
-       else if(s1[i].type=='Premium'){
+       else if(s1[i].type='Premium'){
         sum+=s1[i].price;
        }
        else{
