@@ -16,11 +16,11 @@ int main(){
     for(int i=0;i<n;i++){
         if(s1[i].salary<50000){
             s1[i].bonus=s1[i].salary/10;
-            printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",s1[i].id,s1[i].name,bonus);
+            printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",s1[i].id,s1[i].name,s1[i].bonus);
         }
         else {
              s1[i].bonus=s1[i].salary/20;
-             printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",s1[i].id,s1[i].name,bonus);
+             printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",s1[i].id,s1[i].name,s1[i].bonus);
              
         }
     }
