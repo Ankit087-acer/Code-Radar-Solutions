@@ -1,10 +1,7 @@
 #include <stdio.h>
-
-
-int main() {
-    int n;
-    scanf("%i",&n);
-    printf("You entered: %i\n",n);
+int main(){
+    int y;
+    scanf("%d",&y);
+    printf("You entered: %d",y);
     return 0;
-
 }
