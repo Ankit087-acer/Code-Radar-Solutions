@@ -14,6 +14,11 @@ int main(){
         scanf("%s %s %f",&s1[i].number,&s1[i].v,&s1[i].price);
     }
     for(int i=0;i<n;i++){
-        if(strcmp(s1[i].v,))
+        if(strcmp(s1[i].v,"Car")==0){
+            c+=s1[i].price;
+        }
+        else if(strcmp(s1[i].v,"Truck")==0){
+            t+=s1[i].price;
+        }
     }
 }
