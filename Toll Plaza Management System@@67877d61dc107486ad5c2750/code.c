@@ -20,5 +20,10 @@ int main(){
         else if(strcmp(s1[i].v,"Truck")==0){
             t+=s1[i].price;
         }
+        else if(strcmp(s1[i].v,"Bike")==0){
+            b+=s1[i].price;
+        }
     }
+    printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f",c,t,b);
+    return 0;
 }
