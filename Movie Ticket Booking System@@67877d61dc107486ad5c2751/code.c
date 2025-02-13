@@ -19,7 +19,7 @@ int main(){
        else if(s1[i].type="Premium"){
         Premium_total+=s1[i].price;
        }
-       else if{
+       else if(s1[i].type="VIP"){
         VIP_total+=s1[i].price;
        }
 }
