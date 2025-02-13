@@ -12,7 +12,7 @@ int main(){
         // Check if the character is a vowel or a space
         if(c == 'a' || c == 'A' || c == 'u' || c == 'U' || 
            c == 'i' || c == 'I' || c == 'o' || c == 'O' || 
-           c == 'e' || c == 'E' || c == ' '){
+           c == 'e' || c == 'E' || c == ' ' || c=='1' || c=='2' || c=='3' ||c=='4'){
             str[j++] = str[i];  // Keep the character in the result
         }
     }
