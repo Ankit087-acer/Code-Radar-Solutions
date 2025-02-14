@@ -5,8 +5,11 @@ int main(){
     if(p<q){
         printf("Profit");
     }
-    else{
+    else if(p>q){
         printf("Loss");
+    }
+    else{
+        printf("No Profit No Loss");
     }
     return 0;
 }
