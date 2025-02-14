@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int d,q;
-    scanf("%d%d",&d,&q);
-    if(d%q==0){
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if((a%b==0)){
         printf("Yes");
     }
     else{
