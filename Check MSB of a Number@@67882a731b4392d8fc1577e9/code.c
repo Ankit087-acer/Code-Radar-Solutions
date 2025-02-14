@@ -1,8 +1,8 @@
 #include <stdio.h>
-int main() {
+int main(){
     int y;
     scanf("%d",&y);
-    if(y<0 || (y & (1<<31))){
+    if(y<0 || (y && (1<<31))){
         printf("Set");
     }
     else{
