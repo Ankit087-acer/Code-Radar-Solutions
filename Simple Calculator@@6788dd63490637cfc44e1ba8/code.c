@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    char c;
-    scanf("%d%d %c",&a,&b,&c);
-    switch(a,b,c){
-        case '+':printf("%d",a+b);
-        break;
-        case '-':printf("%d",a-b);
-        break;
-        case '*':printf("%d",a*b);
-        break;
+    char o;
+    scanf("%d %d %c",&a,&b,&o);
+    switch(a,b,o){
+        case '+': printf("%d\n",a+b);
+           break;
+        case '-': printf("%d\n",a-b);
+           break;
+        case '*': printf("%d\n".a*b);
+          break;
         case '/':if(b>0){
-            printf("%d",a/b);
+            printf("%d\n",a/b);
         }
         else{
             printf("error");
@@ -19,5 +19,5 @@ int main(){
         break;
         default:printf("error");
 }
-    return 0;
+return 0;
 }
