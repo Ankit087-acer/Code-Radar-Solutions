@@ -12,6 +12,5 @@ int main(){
     for(int y=x-1;y>=0;y--){
         printf("%d",b[y]);
     }
-    
     return 0;
-}
+}                                                                                                                
