@@ -13,4 +13,4 @@ int main(){
         printf("%d",b[y]);
     }
     return 0;
-}                                                                                                                
+}
