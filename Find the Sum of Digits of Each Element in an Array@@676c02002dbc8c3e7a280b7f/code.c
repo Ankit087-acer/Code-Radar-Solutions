@@ -5,6 +5,7 @@ int main(){
     for(int i=0;i<size;i++){
         int sum=0,b;
         scanf("%d",&arr[i]);
+        arr[i]=arr[i]<0?-arr[i]:arr[i];
         int temp=arr[i];
         while(temp>0){
             b=temp%10;
