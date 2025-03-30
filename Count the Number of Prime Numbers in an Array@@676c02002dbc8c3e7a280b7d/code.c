@@ -30,7 +30,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
    
-    scanf("%d", &n);
-    prime_generator(size,arr[100]);
+    
+    prime_generator(size,arr);
     return 0;
 }
