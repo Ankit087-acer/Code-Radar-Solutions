@@ -16,8 +16,10 @@ int main() {
 
         if (arr[i] == reverse) {
             printf("YES\n");
+            break;
         } else {
             printf("NO\n");
+            break;
         }
     }
 
