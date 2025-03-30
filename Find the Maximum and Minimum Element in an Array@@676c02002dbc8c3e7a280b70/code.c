@@ -11,7 +11,7 @@ int main(){
                 max_ele=arr[i];
             }
         }
-        for(int i=1;;i<size;i++){
+        for(int i=1;i<size;i++){
             if(arr[i]<min_ele){
                 min_ele=arr[i];
             }
