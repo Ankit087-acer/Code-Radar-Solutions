@@ -6,21 +6,23 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
+    int found_palindrome = 0;
     for (int i = 0; i < size; i++) {
-        int temp = arr[i], reverse = 0, c;
+        int temp = arr[i], reverse = 0;
         while (temp > 0) {
-            c = temp % 10;
-            reverse = reverse * 10 + c;
+            reverse = reverse * 10 + (temp % 10);
             temp /= 10;
         }
 
         if (arr[i] == reverse) {
             printf("YES\n");
+            found_palindrome = 1;
             break;
-        } else {
-            printf("NO\n");
-    
         }
+    }
+
+    if (!found_palindrome) {
+        printf("NO\n");
     }
 
     return 0;
