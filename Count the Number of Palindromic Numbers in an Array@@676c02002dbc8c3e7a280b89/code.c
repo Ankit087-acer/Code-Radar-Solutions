@@ -17,6 +17,7 @@ for(int i=0;i<size;i++){
   if(arr[i]==reverse){
     count++;
   }
-  printf("%d",count);
+ 
 }
+printf("%d",count);
 return 0;}
