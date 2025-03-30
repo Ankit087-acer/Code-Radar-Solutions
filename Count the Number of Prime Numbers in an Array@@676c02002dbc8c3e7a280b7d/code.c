@@ -11,7 +11,7 @@ int prime_checker(int a) {
     return 1;
 }
 
-void prime_generator(int n,int arr[100]) {
+void prime_generator(int size,int arr[100]) {
     int count = 0;
     
     for (int i = 2; i <= size; i++) {
