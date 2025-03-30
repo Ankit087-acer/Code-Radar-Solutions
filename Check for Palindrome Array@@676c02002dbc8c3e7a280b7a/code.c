@@ -19,7 +19,7 @@ int main() {
             break;
         } else {
             printf("NO\n");
-            break;
+    
         }
     }
 
