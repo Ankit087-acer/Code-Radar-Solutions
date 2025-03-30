@@ -6,7 +6,7 @@ int main(){
   scanf("%d",&arr[i]);
  
   }
- printf("\n");
+ 
 for(int i=0;i<size;i++){
   int c,num=arr[i],reverse=0;
  while(num>0){
