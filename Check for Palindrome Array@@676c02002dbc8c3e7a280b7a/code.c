@@ -2,7 +2,7 @@
 int main(){
     int size,arr[100];
     scanf("%d",&size);
-    for(int i=0;i<n;i++){
+    for(int i=0;i<size;i++){
         scanf("%d",&arr[i]);
         int temp=arr[i],reverse=0,c;
         while(temp>0){
