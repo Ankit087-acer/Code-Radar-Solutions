@@ -17,7 +17,7 @@ int main() {
         if (arr[i] == reverse) {
             printf("YES\n");
             found_palindrome = 1;
-            
+            break;
         }
     }
 
