@@ -1,13 +1,15 @@
-int prime_checker(int n){
-    if(n<=1){
+#include <stdio.h>
+int prime_checker(int a){
+    if(a<=1){
         return 0;
     }
-    for(int i=2;i*i<=n;i++){
+    for(int i=2;i*i<=a;i++){
         return 0;
     }
     return 1;
 }
-void prime_generator(int n,int count=0){
+void prime_generator(int n){
+    int count=0;
     for(int i=2;i<=n;i++){
         if(prime_checker(i)){
             count++;
@@ -18,6 +20,6 @@ void prime_generator(int n,int count=0){
 int main(){
     int n,count=0;
     scanf("%d",&n);
-    prime_generator(n,count);
+    prime_generator(n);
     return 0;
 }
