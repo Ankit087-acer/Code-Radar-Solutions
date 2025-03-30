@@ -14,7 +14,7 @@ int prime_checker(int a) {
 void prime_generator(int size,int arr[100]) {
     int count = 0;
     
-    for (int i = 2; i <= size; i++) {
+    for (int i = 0; i <= size; i++) {
         if (prime_checker(arr[i])) {
            
             count++;
@@ -26,7 +26,7 @@ void prime_generator(int size,int arr[100]) {
 int main() {
     int size,arr[100];
     scanf("%d",&size);
-    for(int i=1;i<=size;i++){
+    for(int i=0;i<=size;i++){
         scanf("%d",&arr[i]);
     }
    
