@@ -18,7 +18,7 @@ void prime_generator(int n){
     printf("%d",count);
 }
 int main(){
-    int n,count=0;
+    int n;
     scanf("%d",&n);
     prime_generator(n);
     return 0;
