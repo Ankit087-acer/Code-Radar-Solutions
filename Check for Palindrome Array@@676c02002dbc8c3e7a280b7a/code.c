@@ -16,11 +16,12 @@ int main() {
         if(arr[i]==reverse){
            printf("YES");
            found_palindrome=1;
-           break;
+          
     }
     else{
         printf("NO");
         found_palindrome=0;
+
         
     }
         
