@@ -13,16 +13,19 @@ int main() {
             reverse = reverse * 10 + (temp % 10);
             temp /= 10;
         }
-        
-        
-    }
-    if(arr[i]==reverse){
+        if(arr[i]==reverse){
            printf("YES");
+           found_palindrome=1;
+           break;
     }
     else{
         printf("NO");
+        found_palindrome=0;
+        break;
     }
-      
+        
+    }
+    
     
     return 0;
 }
