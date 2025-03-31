@@ -21,7 +21,7 @@ int main() {
     else{
         printf("NO");
         found_palindrome=0;
-        break;
+        
     }
         
     }
