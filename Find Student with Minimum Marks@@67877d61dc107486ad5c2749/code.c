@@ -15,6 +15,6 @@ int main() {
             minScorer = students[i];
         }
     }
-    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n", minScorer.rollNumber, minScorer.name, minScorer.marks);
+    printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f\n", minScorer.rollNumber, minScorer.name, minScorer.marks);
     return 0;
 } 
